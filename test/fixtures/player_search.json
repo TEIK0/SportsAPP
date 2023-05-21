@@ -1,0 +1,1682 @@
+{
+  "data": [
+    {
+      "id": 289,
+      "sport_id": 1,
+      "slug": "lionel-messi",
+      "name": "Lionel Messi",
+      "name_translations": {
+        "en": "Lionel Messi"
+      },
+      "name_short": "L. Messi",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/lionel-messi.png",
+      "position": "F",
+      "position_name": "Forward",
+      "weight": 67,
+      "age": 35,
+      "date_birth_at": "1987-06-24",
+      "height": 1.69,
+      "shirt_number": 30,
+      "preferred_foot": "Left",
+      "nationality_code": "ARG",
+      "flag": "argentina",
+      "market_currency": "EUR",
+      "market_value": 152000000,
+      "contract_until": "",
+      "rating": 80.7,
+      "characteristics": {
+        "positive": [
+          {
+            "feature": "Consistency",
+            "value": 1
+          },
+          {
+            "feature": "Playmaking",
+            "value": 3
+          },
+          {
+            "feature": "Ball control",
+            "value": 3
+          }
+        ]
+      },
+      "positions": {
+        "main": [
+          "RW",
+          "AM"
+        ]
+      },
+      "ability": [
+        {
+          "name": "Attacking",
+          "value": 96,
+          "full_average": 64
+        },
+        {
+          "name": "Technical",
+          "value": 96,
+          "full_average": 52
+        },
+        {
+          "name": "Defending",
+          "value": 29,
+          "full_average": 31
+        },
+        {
+          "name": "Tactical",
+          "value": 73,
+          "full_average": 45
+        },
+        {
+          "name": "Creativity",
+          "value": 92,
+          "full_average": 50
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "sport_id": 1,
+      "slug": "lionel-messi",
+      "name": "Lionel Messi",
+      "name_translations": {
+        "en": "Lionel Messi"
+      },
+      "name_short": "L. Messi",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/lionel-messi.png",
+      "position": "F",
+      "position_name": "Forward",
+      "weight": 67,
+      "age": 35,
+      "date_birth_at": "1987-06-24",
+      "height": 1.69,
+      "shirt_number": 30,
+      "preferred_foot": "Left",
+      "nationality_code": "ARG",
+      "flag": "argentina",
+      "market_currency": "EUR",
+      "market_value": 152000000,
+      "contract_until": "",
+      "rating": 80.7,
+      "characteristics": {
+        "positive": [
+          {
+            "feature": "Consistency",
+            "value": 1
+          },
+          {
+            "feature": "Playmaking",
+            "value": 3
+          },
+          {
+            "feature": "Ball control",
+            "value": 3
+          }
+        ]
+      },
+      "positions": {
+        "main": [
+          "RW",
+          "AM"
+        ]
+      },
+      "ability": [
+        {
+          "name": "Attacking",
+          "value": 96,
+          "full_average": 64
+        },
+        {
+          "name": "Technical",
+          "value": 96,
+          "full_average": 52
+        },
+        {
+          "name": "Defending",
+          "value": 29,
+          "full_average": 31
+        },
+        {
+          "name": "Tactical",
+          "value": 73,
+          "full_average": 45
+        },
+        {
+          "name": "Creativity",
+          "value": 92,
+          "full_average": 50
+        }
+      ]
+    },
+    {
+      "id": 11174,
+      "sport_id": 1,
+      "slug": "dustin-messing",
+      "name": "Dustin Messing",
+      "name_translations": {
+        "en": "Dustin Messing"
+      },
+      "name_short": "D. Messing",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/dustin-messing.png",
+      "position": "D",
+      "position_name": "Defender",
+      "weight": null,
+      "age": 27,
+      "date_birth_at": "1996-04-26",
+      "height": 1.71,
+      "shirt_number": 17,
+      "preferred_foot": "Right",
+      "nationality_code": "GER",
+      "flag": "germany",
+      "market_currency": "EUR",
+      "market_value": 77000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": [
+          "ML",
+          "DR"
+        ]
+      },
+      "ability": null
+    },
+    {
+      "id": 11342,
+      "sport_id": 1,
+      "slug": "philip-messingschlager",
+      "name": "Philip Messingschlager",
+      "name_translations": {
+        "en": "Philip Messingschlager"
+      },
+      "name_short": "P. Messingschlager",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/philip-messingschlager.png",
+      "position": "D",
+      "position_name": "Defender",
+      "weight": null,
+      "age": 30,
+      "date_birth_at": "1992-10-02",
+      "height": 1.79,
+      "shirt_number": 23,
+      "preferred_foot": "Right",
+      "nationality_code": "GER",
+      "flag": "germany",
+      "market_currency": "EUR",
+      "market_value": 115000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": [
+          "DL"
+        ]
+      },
+      "ability": null
+    },
+    {
+      "id": 23680,
+      "sport_id": 1,
+      "slug": "hicham-messiad",
+      "name": "Hicham Messiad",
+      "name_translations": {
+        "en": "Hicham Messiad"
+      },
+      "name_short": "H. Messiad",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/hicham-messiad.png",
+      "position": "F",
+      "position_name": "Forward",
+      "weight": null,
+      "age": 24,
+      "date_birth_at": "1999-04-21",
+      "height": null,
+      "shirt_number": 17,
+      "preferred_foot": null,
+      "nationality_code": "ALG",
+      "flag": "algeria",
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": [
+          "LW",
+          "AM"
+        ]
+      },
+      "ability": null
+    },
+    {
+      "id": 23684,
+      "sport_id": 1,
+      "slug": "zakaria-messibah",
+      "name": "Zakaria Messibah",
+      "name_translations": {
+        "en": "Zakaria Messibah"
+      },
+      "name_short": "Z. Messibah",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/zakaria-messibah.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": null,
+      "age": 25,
+      "date_birth_at": "1995-10-16",
+      "height": 1.65,
+      "shirt_number": 15,
+      "preferred_foot": null,
+      "nationality_code": "ALG",
+      "flag": "algeria",
+      "market_currency": "€",
+      "market_value": 360000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "DM"
+      },
+      "ability": null
+    },
+    {
+      "id": 24802,
+      "sport_id": 1,
+      "slug": "nicolas-messiniti",
+      "name": "Nicolás Messiniti",
+      "name_translations": {
+        "en": "Nicolás Messiniti"
+      },
+      "name_short": "N. Messiniti",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/nicolas-messiniti.png",
+      "position": "F",
+      "position_name": "Forward",
+      "weight": 80,
+      "age": 27,
+      "date_birth_at": "1996-02-21",
+      "height": 1.8399999999999999,
+      "shirt_number": 7,
+      "preferred_foot": "Right",
+      "nationality_code": "ARG",
+      "flag": "argentina",
+      "market_currency": "EUR",
+      "market_value": 215000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "ST"
+      },
+      "ability": null
+    },
+    {
+      "id": 29744,
+      "sport_id": 1,
+      "slug": "messias",
+      "name": "Messias",
+      "name_translations": {
+        "en": "Messias"
+      },
+      "name_short": "Messias",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/messias.png",
+      "position": "D",
+      "position_name": "Defender",
+      "weight": null,
+      "age": 28,
+      "date_birth_at": "1994-11-03",
+      "height": 1.92,
+      "shirt_number": 24,
+      "preferred_foot": "Right",
+      "nationality_code": "BRA",
+      "flag": "brazil",
+      "market_currency": "EUR",
+      "market_value": 715000,
+      "contract_until": "",
+      "rating": 53.5,
+      "characteristics": {
+        "positive": [
+          {
+            "feature": "Aerial duels",
+            "value": 20
+          }
+        ]
+      },
+      "positions": {
+        "main": "DC"
+      },
+      "ability": [
+        {
+          "name": "Attacking",
+          "value": 36,
+          "full_average": 39
+        },
+        {
+          "name": "Technical",
+          "value": 42,
+          "full_average": 46
+        },
+        {
+          "name": "Defending",
+          "value": 76,
+          "full_average": 66
+        },
+        {
+          "name": "Tactical",
+          "value": 61,
+          "full_average": 53
+        },
+        {
+          "name": "Creativity",
+          "value": 35,
+          "full_average": 43
+        }
+      ]
+    },
+    {
+      "id": 58492,
+      "sport_id": 1,
+      "slug": "alexis-messidoro",
+      "name": "Alexis Messidoro",
+      "name_translations": {
+        "en": "Alexis Messidoro"
+      },
+      "name_short": "A. Messidoro",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/alexis-messidoro.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": 70,
+      "age": 25,
+      "date_birth_at": "1997-05-13",
+      "height": 1.78,
+      "shirt_number": 10,
+      "preferred_foot": "Right",
+      "nationality_code": "ARG",
+      "flag": "argentina",
+      "market_currency": "EUR",
+      "market_value": 95000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "MC"
+      },
+      "ability": null
+    },
+    {
+      "id": 60361,
+      "sport_id": 1,
+      "slug": "tobias-messing",
+      "name": "Tobias Messing",
+      "name_translations": {
+        "en": "Tobias Messing"
+      },
+      "name_short": "T. Messing",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "D",
+      "position_name": "Defender",
+      "weight": null,
+      "age": 22,
+      "date_birth_at": "2000-12-24",
+      "height": 1.77,
+      "shirt_number": 24,
+      "preferred_foot": null,
+      "nationality_code": "AUT",
+      "flag": "austria",
+      "market_currency": "EUR",
+      "market_value": 49000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "DL"
+      },
+      "ability": null
+    },
+    {
+      "id": 60361,
+      "sport_id": 1,
+      "slug": "tobias-messing",
+      "name": "Tobias Messing",
+      "name_translations": {
+        "en": "Tobias Messing"
+      },
+      "name_short": "T. Messing",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "D",
+      "position_name": "Defender",
+      "weight": null,
+      "age": 22,
+      "date_birth_at": "2000-12-24",
+      "height": 1.77,
+      "shirt_number": 24,
+      "preferred_foot": null,
+      "nationality_code": "AUT",
+      "flag": "austria",
+      "market_currency": "EUR",
+      "market_value": 49000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "DL"
+      },
+      "ability": null
+    },
+    {
+      "id": 75550,
+      "sport_id": 1,
+      "slug": "messie-biatoumoussoka",
+      "name": "Messie Biatoumoussoka",
+      "name_translations": {
+        "en": "Messie Biatoumoussoka"
+      },
+      "name_short": "M. Biatoumoussoka",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/messie-biatoumoussoka.png",
+      "position": "D",
+      "position_name": "Defender",
+      "weight": null,
+      "age": 24,
+      "date_birth_at": "1998-06-05",
+      "height": 1.87,
+      "shirt_number": 27,
+      "preferred_foot": "Left",
+      "nationality_code": "CGO",
+      "flag": "congo",
+      "market_currency": "EUR",
+      "market_value": 105000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "DC"
+      },
+      "ability": null
+    },
+    {
+      "id": 75550,
+      "sport_id": 1,
+      "slug": "messie-biatoumoussoka",
+      "name": "Messie Biatoumoussoka",
+      "name_translations": {
+        "en": "Messie Biatoumoussoka"
+      },
+      "name_short": "M. Biatoumoussoka",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/messie-biatoumoussoka.png",
+      "position": "D",
+      "position_name": "Defender",
+      "weight": null,
+      "age": 24,
+      "date_birth_at": "1998-06-05",
+      "height": 1.87,
+      "shirt_number": 27,
+      "preferred_foot": "Left",
+      "nationality_code": "CGO",
+      "flag": "congo",
+      "market_currency": "EUR",
+      "market_value": 105000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "DC"
+      },
+      "ability": null
+    },
+    {
+      "id": 76095,
+      "sport_id": 1,
+      "slug": "kalen-damessi",
+      "name": "Kalen Damessi",
+      "name_translations": {
+        "en": "Kalen Damessi"
+      },
+      "name_short": "K. Damessi",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/kalen-damessi.png",
+      "position": "F",
+      "position_name": "Forward",
+      "weight": 80,
+      "age": 31,
+      "date_birth_at": "1990-03-28",
+      "height": 1.8399999999999999,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": "TOG",
+      "flag": "togo",
+      "market_currency": "€",
+      "market_value": 245000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "ST"
+      },
+      "ability": null
+    },
+    {
+      "id": 83074,
+      "sport_id": 1,
+      "slug": "raphael-messi-bouli",
+      "name": "Raphael Messi Bouli",
+      "name_translations": {
+        "en": "Raphael Messi Bouli"
+      },
+      "name_short": "R. M. Bouli",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/raphael-messi-bouli.png",
+      "position": "F",
+      "position_name": "Forward",
+      "weight": null,
+      "age": 31,
+      "date_birth_at": "1992-04-28",
+      "height": 1.8599999999999999,
+      "shirt_number": 28,
+      "preferred_foot": "Left",
+      "nationality_code": "CMR",
+      "flag": "cameroon",
+      "market_currency": "EUR",
+      "market_value": 375000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "ST"
+      },
+      "ability": null
+    },
+    {
+      "id": 85216,
+      "sport_id": 1,
+      "slug": "reef-messika",
+      "name": "Reef Messika",
+      "name_translations": {
+        "en": "Reef Messika"
+      },
+      "name_short": "R. Messika",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": null,
+      "age": 33,
+      "date_birth_at": "1989-06-15",
+      "height": 1.77,
+      "shirt_number": 7,
+      "preferred_foot": null,
+      "nationality_code": "ISR",
+      "flag": "israel",
+      "market_currency": "EUR",
+      "market_value": 170000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "AM"
+      },
+      "ability": null
+    },
+    {
+      "id": 87550,
+      "sport_id": 1,
+      "slug": "junior-messias",
+      "name": "Junior Messias",
+      "name_translations": {
+        "en": "Junior Messias"
+      },
+      "name_short": "J. Messias",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/junior-messias.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": null,
+      "age": 31,
+      "date_birth_at": "1991-05-13",
+      "height": 1.79,
+      "shirt_number": 30,
+      "preferred_foot": "Left",
+      "nationality_code": "BRA",
+      "flag": "brazil",
+      "market_currency": "EUR",
+      "market_value": 340000,
+      "contract_until": "",
+      "rating": 59.7,
+      "characteristics": {
+        "positive": [
+          {
+            "feature": "Direct free kicks",
+            "value": 73
+          }
+        ]
+      },
+      "positions": {
+        "main": [
+          "ST",
+          "MC"
+        ]
+      },
+      "ability": [
+        {
+          "name": "Attacking",
+          "value": 63,
+          "full_average": 54
+        },
+        {
+          "name": "Technical",
+          "value": 62,
+          "full_average": 54
+        },
+        {
+          "name": "Defending",
+          "value": 46,
+          "full_average": 45
+        },
+        {
+          "name": "Tactical",
+          "value": 51,
+          "full_average": 45
+        },
+        {
+          "name": "Creativity",
+          "value": 59,
+          "full_average": 54
+        }
+      ]
+    },
+    {
+      "id": 87928,
+      "sport_id": 1,
+      "slug": "michele-messina",
+      "name": "Michele Messina",
+      "name_translations": {
+        "en": "Michele Messina"
+      },
+      "name_short": "M. Messina",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/michele-messina.png",
+      "position": "D",
+      "position_name": "Defender",
+      "weight": null,
+      "age": 27,
+      "date_birth_at": "1996-03-10",
+      "height": 1.76,
+      "shirt_number": null,
+      "preferred_foot": "Right",
+      "nationality_code": "ITA",
+      "flag": "italy",
+      "market_currency": "EUR",
+      "market_value": 49000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": [
+          "DC",
+          "DL"
+        ]
+      },
+      "ability": null
+    },
+    {
+      "id": 88339,
+      "sport_id": 1,
+      "slug": "messina",
+      "name": "Messina",
+      "name_translations": {
+        "en": "Messina"
+      },
+      "name_short": "Messina",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "G",
+      "position_name": "Goalkeeper",
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": "ITA",
+      "flag": "italy",
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 89186,
+      "sport_id": 1,
+      "slug": "antonio-messina",
+      "name": "Antonio Messina",
+      "name_translations": {
+        "en": "Antonio Messina"
+      },
+      "name_short": "A. Messina",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/antonio-messina.png",
+      "position": "F",
+      "position_name": "Forward",
+      "weight": null,
+      "age": 22,
+      "date_birth_at": "2000-11-30",
+      "height": 1.87,
+      "shirt_number": null,
+      "preferred_foot": "Both",
+      "nationality_code": "ITA",
+      "flag": "italy",
+      "market_currency": "EUR",
+      "market_value": 24000,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "ST"
+      },
+      "ability": null
+    },
+    {
+      "id": 92777,
+      "sport_id": 1,
+      "slug": "pasquale-messina",
+      "name": "Pasquale Messina",
+      "name_translations": {
+        "en": "Pasquale Messina"
+      },
+      "name_short": "P. Messina",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/pasquale-messina.png",
+      "position": "F",
+      "position_name": "Forward",
+      "weight": null,
+      "age": 21,
+      "date_birth_at": "2000-07-19",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": "Both",
+      "nationality_code": "ITA",
+      "flag": "italy",
+      "market_currency": "€",
+      "market_value": null,
+      "contract_until": "2020-06-30",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": [
+          "RW",
+          "ST"
+        ]
+      },
+      "ability": null
+    },
+    {
+      "id": 100024,
+      "sport_id": 1,
+      "slug": "yuri-de-jesus-messias",
+      "name": "Yuri De Jesus Messias",
+      "name_translations": {
+        "en": "Yuri De Jesus Messias"
+      },
+      "name_short": "Y. D. J. Messias",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "F",
+      "position_name": "Forward",
+      "weight": null,
+      "age": 29,
+      "date_birth_at": "1991-09-11",
+      "height": 1.69,
+      "shirt_number": null,
+      "preferred_foot": "Right",
+      "nationality_code": "BRA",
+      "flag": "brazil",
+      "market_currency": "€",
+      "market_value": 185000,
+      "contract_until": "2020-06-30",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": [
+          "RW"
+        ]
+      },
+      "ability": null
+    },
+    {
+      "id": 109944,
+      "sport_id": 1,
+      "slug": "manoel-messias",
+      "name": "Manoel Messias",
+      "name_translations": {
+        "en": "Manoel Messias"
+      },
+      "name_short": "M. Messias",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/manoel-messias.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": 74,
+      "age": 23,
+      "date_birth_at": "1999-11-08",
+      "height": 1.87,
+      "shirt_number": null,
+      "preferred_foot": "Both",
+      "nationality_code": "BRA",
+      "flag": "brazil",
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 122942,
+      "sport_id": 1,
+      "slug": "jeremy-messiba",
+      "name": "Jeremy Messiba",
+      "name_translations": {
+        "en": "Jeremy Messiba"
+      },
+      "name_short": "J. Messiba",
+      "has_photo": true,
+      "photo": "https://tipsscore.com/resb/player/jeremy-messiba.png",
+      "position": "D",
+      "position_name": "Defender",
+      "weight": 78,
+      "age": 34,
+      "date_birth_at": "1988-01-01",
+      "height": 1.8399999999999999,
+      "shirt_number": null,
+      "preferred_foot": "Right",
+      "nationality_code": "FRA",
+      "flag": "france",
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": "DC"
+      },
+      "ability": null
+    },
+    {
+      "id": 125180,
+      "sport_id": 1,
+      "slug": "fabian-messina",
+      "name": "Fabian Messina",
+      "name_translations": {
+        "en": "Fabian Messina"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 128364,
+      "sport_id": 1,
+      "slug": "n-messiniti",
+      "name": "N. Messiniti",
+      "name_translations": {
+        "en": "N. Messiniti"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 130929,
+      "sport_id": 1,
+      "slug": "messika",
+      "name": "Messika",
+      "name_translations": {
+        "en": "Messika"
+      },
+      "name_short": "Messika",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 135084,
+      "sport_id": 1,
+      "slug": "messias-harlley",
+      "name": "Messias Harlley",
+      "name_translations": {
+        "en": "Messias Harlley"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 138253,
+      "sport_id": 1,
+      "slug": "adriel-messias",
+      "name": "Adriel Messias",
+      "name_translations": {
+        "en": "Adriel Messias"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 147149,
+      "sport_id": 1,
+      "slug": "messias-harlley-goncalves",
+      "name": "Messias Harlley Gonçalves",
+      "name_translations": {
+        "en": "Messias Harlley Gonçalves"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 197612,
+      "sport_id": 1,
+      "slug": "hod-messika",
+      "name": "Hod Messika",
+      "name_translations": {
+        "en": "Hod Messika"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 206274,
+      "sport_id": 1,
+      "slug": "felix-messing",
+      "name": "Felix Messing",
+      "name_translations": {
+        "en": "Felix Messing"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 214016,
+      "sport_id": 1,
+      "slug": "paulo-diego-messias",
+      "name": "Paulo Diego Messias",
+      "name_translations": {
+        "en": "Paulo Diego Messias"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 214077,
+      "sport_id": 1,
+      "slug": "yuri-de-jesus-messias-1",
+      "name": "Yuri de Jesus Messias",
+      "name_translations": {
+        "en": "Yuri de Jesus Messias"
+      },
+      "name_short": "Y. d. J. Messias",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 218144,
+      "sport_id": 1,
+      "slug": "messias-eduardo",
+      "name": "Messias Eduardo",
+      "name_translations": {
+        "en": "Messias Eduardo"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 221733,
+      "sport_id": 1,
+      "slug": "paulo-messias",
+      "name": "Paulo Messias",
+      "name_translations": {
+        "en": "Paulo Messias"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 227174,
+      "sport_id": 1,
+      "slug": "misael-messias",
+      "name": "Misael Messias",
+      "name_translations": {
+        "en": "Misael Messias"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 229046,
+      "sport_id": 1,
+      "slug": "messias-teles",
+      "name": "Messias Teles",
+      "name_translations": {
+        "en": "Messias Teles"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 233158,
+      "sport_id": 1,
+      "slug": "jhonatan-messias",
+      "name": "Jhonatan Messias",
+      "name_translations": {
+        "en": "Jhonatan Messias"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 253540,
+      "sport_id": 1,
+      "slug": "messinho",
+      "name": "Messinho",
+      "name_translations": {
+        "en": "Messinho"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 259423,
+      "sport_id": 1,
+      "slug": "jesus-messias",
+      "name": "Jesus Messias",
+      "name_translations": {
+        "en": "Jesus Messias"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 263835,
+      "sport_id": 1,
+      "slug": "tiko-messina",
+      "name": "Tiko Messina",
+      "name_translations": {
+        "en": "Tiko Messina"
+      },
+      "name_short": "T. Messina",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": 65,
+      "age": 32,
+      "date_birth_at": "1990-04-29",
+      "height": 1.73,
+      "shirt_number": null,
+      "preferred_foot": "Right",
+      "nationality_code": "CMR",
+      "flag": "cameroon",
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": {
+        "main": [
+          "LW",
+          "MR"
+        ]
+      },
+      "ability": null
+    },
+    {
+      "id": 267567,
+      "sport_id": 1,
+      "slug": "z-messibah",
+      "name": "Z. Messibah",
+      "name_translations": {
+        "en": "Z. Messibah"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 269506,
+      "sport_id": 1,
+      "slug": "messie",
+      "name": "Messie",
+      "name_translations": {
+        "en": "Messie"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 273188,
+      "sport_id": 1,
+      "slug": "messias-1",
+      "name": "Messias",
+      "name_translations": {
+        "en": "Messias"
+      },
+      "name_short": "Messias",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": 34,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 279767,
+      "sport_id": 1,
+      "slug": "fabian-messina-1",
+      "name": "Fabian Messina",
+      "name_translations": {
+        "en": "Fabian Messina"
+      },
+      "name_short": "F. Messina",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": null,
+      "age": 20,
+      "date_birth_at": "2002-09-16",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": "DOM",
+      "flag": "dominican-rep",
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 279773,
+      "sport_id": 1,
+      "slug": "fabian-messina-2",
+      "name": "Fabian Messina",
+      "name_translations": {
+        "en": "Fabian Messina"
+      },
+      "name_short": "F. Messina",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": null,
+      "age": 20,
+      "date_birth_at": "2002-09-16",
+      "height": 1.69,
+      "shirt_number": null,
+      "preferred_foot": "Right",
+      "nationality_code": "DOM",
+      "flag": "dominican-rep",
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 279773,
+      "sport_id": 1,
+      "slug": "fabian-messina-2",
+      "name": "Fabian Messina",
+      "name_translations": {
+        "en": "Fabian Messina"
+      },
+      "name_short": "F. Messina",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": null,
+      "age": 20,
+      "date_birth_at": "2002-09-16",
+      "height": 1.69,
+      "shirt_number": null,
+      "preferred_foot": "Right",
+      "nationality_code": "DOM",
+      "flag": "dominican-rep",
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 279773,
+      "sport_id": 1,
+      "slug": "fabian-messina-2",
+      "name": "Fabian Messina",
+      "name_translations": {
+        "en": "Fabian Messina"
+      },
+      "name_short": "F. Messina",
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": "M",
+      "position_name": "Midfielder",
+      "weight": null,
+      "age": 20,
+      "date_birth_at": "2002-09-16",
+      "height": 1.69,
+      "shirt_number": null,
+      "preferred_foot": "Right",
+      "nationality_code": "DOM",
+      "flag": "dominican-rep",
+      "market_currency": "EUR",
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    },
+    {
+      "id": 292895,
+      "sport_id": 1,
+      "slug": "avi-messika",
+      "name": "Avi Messika",
+      "name_translations": {
+        "en": "Avi Messika"
+      },
+      "name_short": null,
+      "has_photo": false,
+      "photo": "https://tipsscore.com/resb/no-photo.png",
+      "position": null,
+      "position_name": null,
+      "weight": null,
+      "age": null,
+      "date_birth_at": "",
+      "height": null,
+      "shirt_number": null,
+      "preferred_foot": null,
+      "nationality_code": null,
+      "flag": null,
+      "market_currency": null,
+      "market_value": null,
+      "contract_until": "",
+      "rating": null,
+      "characteristics": null,
+      "positions": null,
+      "ability": null
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "per_page": 50,
+    "to": 50
+  }
+}
