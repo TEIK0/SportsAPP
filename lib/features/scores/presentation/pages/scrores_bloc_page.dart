@@ -5,6 +5,7 @@ import 'package:sports_app/features/scores/presentation/bloc/scores_bloc.dart';
 import 'package:sports_app/features/scores/presentation/pages/scores_page.dart';
 import 'package:sports_app/features/scores/presentation/pages/sports_page.dart';
 
+import '../../../../core/pages/loading_page.dart';
 import '../../../../injections.dart';
 
 class ScoresBlocPage extends StatefulWidget {
@@ -30,7 +31,7 @@ class _ScoresBlocPageState extends State<ScoresBlocPage> {
           } else if (state is Error) {
             return const Center(child: Text('error'));
           } else if (state is Loading) {
-            return const Center(child: CircularProgressIndicator());
+            return LoadingDisplay();
           } else if (state is LoadedSports) {
             return SportsPage(
               state: state.sports,

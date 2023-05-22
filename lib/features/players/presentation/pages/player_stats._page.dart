@@ -37,12 +37,14 @@ class PlayerStatsPage extends StatelessWidget {
 
   Text statContainer(String stat, function) {
     return Text('$stat: ${function()}',
-        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold));
+        style: const TextStyle(
+            fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white));
   }
 
   Text nameContainer() {
     return Text(state.name,
-        style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold));
+        style: const TextStyle(
+            fontSize: 40, fontWeight: FontWeight.bold, color: Colors.white));
   }
 
   Container imageContainer() {

@@ -20,9 +20,13 @@ class TeamsBloc extends Bloc<TeamsEvent, TeamsState> {
     on<GetTeamsListEvent>((event, emit) async {
       emit(Loading());
 
-      final failureOrPlayers = await remote.getTeamsListByName(event.name);
+      print('getting');
 
-      _eitherLoadedOrError(failureOrPlayers);
+      final failureOrTeams = await remote.getTeamsListByName(event.name);
+
+      print(failureOrTeams.runtimeType);
+
+      _eitherLoadedOrError(failureOrTeams);
     });
     on<ShowTeamInfoEvent>((event, emit) async {
       emit(Loading());
@@ -31,8 +35,9 @@ class TeamsBloc extends Bloc<TeamsEvent, TeamsState> {
     });
   }
 
-  void _eitherLoadedOrError(Either<Failure, Teams> failureOrSports) async {
-    emit(failureOrSports.fold(
+  void _eitherLoadedOrError(Either<Failure, Teams> failureOrTeams) async {
+    print(failureOrTeams);
+    emit(failureOrTeams.fold(
         (failure) => Error(message: _mapFailureToMessage(failure)),
         (teams) => LoadedTeamsList(teams: teams)));
   }

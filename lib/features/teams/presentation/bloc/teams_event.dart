@@ -17,7 +17,7 @@ class GetTeamsListEvent extends TeamsEvent {
 }
 
 class ShowTeamInfoEvent extends TeamsEvent {
-  final Datum stats;
+  final DatumTeams stats;
 
   const ShowTeamInfoEvent(this.stats);
 

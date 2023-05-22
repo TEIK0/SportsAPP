@@ -21,7 +21,7 @@ class LoadedTeamsList extends TeamsState {
 }
 
 class LoadedTeamInfo extends TeamsState {
-  final Datum team;
+  final DatumTeams team;
 
   const LoadedTeamInfo({required this.team});
 

@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:sports_app/features/teams/domain/entities/teams.dart';
+import '../../domain/entities/teams.dart';
 
 TeamModel teamModelFromJson(String str) => TeamModel.fromJson(json.decode(str));
 
@@ -12,11 +12,12 @@ String teamModelToJson(TeamModel data) => json.encode(data.toJson());
 
 class TeamModel extends Teams {
   const TeamModel({
-    required List<Datum> data,
+    required List<DatumTeams> data,
   }) : super(data: data);
 
   factory TeamModel.fromJson(Map<String, dynamic> json) => TeamModel(
-        data: List<Datum>.from(json["data"].map((x) => Datum.fromJson(x))),
+        data: List<DatumTeams>.from(
+            json["data"].map((x) => DatumTeams.fromJson(x))),
       );
 
   Map<String, dynamic> toJson() => {
@@ -24,35 +25,29 @@ class TeamModel extends Teams {
       };
 }
 
-class Datum {
+class DatumTeams {
   int id;
   int sportId;
   String name;
   bool hasLogo;
   String logo;
-  bool hasSub;
-  String gender;
-  String country;
+  String? country;
 
-  Datum({
+  DatumTeams({
     required this.id,
     required this.sportId,
     required this.name,
     required this.hasLogo,
     required this.logo,
-    required this.hasSub,
-    required this.gender,
     required this.country,
   });
 
-  factory Datum.fromJson(Map<String, dynamic> json) => Datum(
+  factory DatumTeams.fromJson(Map<String, dynamic> json) => DatumTeams(
         id: json["id"],
         sportId: json["sport_id"],
         name: json["name"],
         hasLogo: json["has_logo"],
         logo: json["logo"],
-        hasSub: json["has_sub"],
-        gender: json["gender"],
         country: json["country"],
       );
 
@@ -62,8 +57,6 @@ class Datum {
         "name": name,
         "has_logo": hasLogo,
         "logo": logo,
-        "has_sub": hasSub,
-        "gender": gender,
         "country": country,
       };
 }

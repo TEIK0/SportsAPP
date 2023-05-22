@@ -23,10 +23,11 @@ class TeamsRemoteDataSourceImpl implements TeamsRemoteDataSource {
       'Content-Type': 'application/json',
       'X-RapidAPI-Key': 'ccbf9f952fmsh33f62b3f323a828p19c75cjsn8c5bdb9e83f5',
       'X-RapidAPI-Host': 'sportscore1.p.rapidapi.com',
-      'charset': 'utf8'
+      'charset': 'utf-8'
     });
     if (response.statusCode == 200) {
       final result = TeamModel.fromJson(json.decode(response.body));
+
       return result;
     } else {
       throw ServerFailure();

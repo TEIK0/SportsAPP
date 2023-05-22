@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sports_app/features/players/presentation/pages/player_stats._page.dart';
 
+import '../../../../core/pages/loading_page.dart';
 import '../../../../core/widgets/botttom_bar.dart';
 import '../../../../injections.dart';
 import '../../data/models/player_model.dart';
@@ -28,32 +29,9 @@ class _PlayersBlocPageState extends State<PlayersBlocPage> {
                   appBar: searchBar(context),
                   body: Center(child: Text('Error')));
             } else if (state is Loading) {
-              return const Center(child: CircularProgressIndicator());
+              return LoadingDisplay();
             } else if (state is LoadedPlayersList) {
-              return Scaffold(
-                appBar: searchBar(context),
-                body: ListView.builder(
-                  itemCount: state.players.data.length,
-                  itemBuilder: (context, index) {
-                    return Container(
-                      decoration: const BoxDecoration(
-                          color: Color.fromARGB(255, 249, 249, 249),
-                          border: Border(bottom: BorderSide(width: 3))),
-                      child: ListTile(
-                          minVerticalPadding: 15,
-                          title: Text(state.players.data[index].name,
-                              style: const TextStyle(
-                                  fontSize: 30,
-                                  fontWeight: FontWeight.bold,
-                                  color: Color.fromARGB(255, 1, 1, 1))),
-                          onTap: () => {
-                                getPlayertStats(
-                                    context, state.players.data[index])
-                              }),
-                    );
-                  },
-                ),
-              );
+              return playerListWidget(context, state);
             } else if (state is LoadedPlayerStats) {
               return Scaffold(
                   appBar: searchBar(context),
@@ -67,11 +45,40 @@ class _PlayersBlocPageState extends State<PlayersBlocPage> {
     );
   }
 
+  Scaffold playerListWidget(BuildContext context, LoadedPlayersList state) {
+    return Scaffold(
+      appBar: searchBar(context),
+      body: ListView.builder(
+        itemCount: state.players.data.length,
+        itemBuilder: (context, index) {
+          return Container(
+            decoration: const BoxDecoration(
+                color: Color.fromARGB(255, 28, 28, 26),
+                border: Border(bottom: BorderSide(width: 3))),
+            child: ListTile(
+                minVerticalPadding: 15,
+                title: Text(state.players.data[index].name,
+                    style: const TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white)),
+                onTap: () =>
+                    {getPlayertStats(context, state.players.data[index])}),
+          );
+        },
+      ),
+    );
+  }
+
   AppBar searchBar(BuildContext context) {
     return AppBar(
+      toolbarHeight: 100,
       centerTitle: true,
       title: Container(
-        color: Colors.white,
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
+            color: Colors.white,
+            border: Border.all(style: BorderStyle.solid, width: 3)),
         width: 300,
         height: 50,
         child: TextField(
@@ -96,17 +103,5 @@ class _PlayersBlocPageState extends State<PlayersBlocPage> {
 
   void getPlayertStats(BuildContext context, Datum data) {
     BlocProvider.of<PlayersBloc>(context).add(ShowPlayerStatsEvent(data));
-  }
-
-  AppBar appBar(BuildContext context) {
-    return AppBar(
-        toolbarHeight: 80,
-        centerTitle: true,
-        elevation: 0,
-        backgroundColor: Colors.white,
-        title: const Text(
-          'Sports App',
-          style: TextStyle(color: Colors.black, fontSize: 40),
-        ));
   }
 }

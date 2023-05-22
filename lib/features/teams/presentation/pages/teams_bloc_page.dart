@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:sports_app/features/teams/presentation/bloc/teams_bloc.dart';
+import 'package:sports_app/features/teams/presentation/pages/team_stats_page.dart';
+import '../../../../core/pages/loading_page.dart';
 import '../../data/models/teams_model.dart';
 
 import '../../../../injections.dart';
@@ -27,34 +29,13 @@ class _TeamsBlocPageState extends State<TeamsBlocPage> {
                   appBar: searchBar(context),
                   body: Center(child: Text('Error')));
             } else if (state is Loading) {
-              return const Center(child: CircularProgressIndicator());
+              return LoadingDisplay();
             } else if (state is LoadedTeamsList) {
-              return Scaffold(
-                appBar: searchBar(context),
-                body: ListView.builder(
-                  itemCount: state.teams.data.length,
-                  itemBuilder: (context, index) {
-                    return Container(
-                      decoration: const BoxDecoration(
-                          color: Color.fromARGB(255, 249, 249, 249),
-                          border: Border(bottom: BorderSide(width: 3))),
-                      child: ListTile(
-                          minVerticalPadding: 15,
-                          title: Text(state.teams.data[index].name,
-                              style: const TextStyle(
-                                  fontSize: 30,
-                                  fontWeight: FontWeight.bold,
-                                  color: Color.fromARGB(255, 1, 1, 1))),
-                          onTap: () => {
-                                getPlayertStats(
-                                    context, state.teams.data[index])
-                              }),
-                    );
-                  },
-                ),
-              );
+              return teamsListWidget(context, state);
             } else if (state is LoadedTeamInfo) {
-              return Scaffold(appBar: searchBar(context), body: Center());
+              return Scaffold(
+                  appBar: searchBar(context),
+                  body: TeamStatsPage(state: state.team));
             } else {
               return const Text('Fatal error');
             }
@@ -64,11 +45,44 @@ class _TeamsBlocPageState extends State<TeamsBlocPage> {
     );
   }
 
+  Scaffold teamsListWidget(BuildContext context, LoadedTeamsList state) {
+    return Scaffold(
+      appBar: searchBar(context),
+      body: ListView.builder(
+        itemCount: state.teams.data.length,
+        itemBuilder: (context, index) {
+          return Container(
+            decoration: const BoxDecoration(
+                color: Color.fromARGB(255, 28, 28, 26),
+                border: Border(bottom: BorderSide(width: 3))),
+            child: listTitleWidget(state, index, context),
+          );
+        },
+      ),
+    );
+  }
+
+  ListTile listTitleWidget(
+      LoadedTeamsList state, int index, BuildContext context) {
+    return ListTile(
+        minVerticalPadding: 15,
+        title: Text(state.teams.data[index].name,
+            style: const TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+                color: Colors.white)),
+        onTap: () => {getTeamStats(context, state.teams.data[index])});
+  }
+
   AppBar searchBar(BuildContext context) {
     return AppBar(
       centerTitle: true,
+      toolbarHeight: 100,
       title: Container(
-        color: Colors.white,
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
+            color: Colors.white,
+            border: Border.all(style: BorderStyle.solid, width: 3)),
         width: 300,
         height: 50,
         child: TextField(
@@ -77,7 +91,7 @@ class _TeamsBlocPageState extends State<TeamsBlocPage> {
             input = value;
           },
           onSubmitted: (_) {
-            getPlayerstList(context, input);
+            getTeamstList(context, input);
           },
           cursorColor: Colors.black,
           textAlign: TextAlign.center,
@@ -87,23 +101,11 @@ class _TeamsBlocPageState extends State<TeamsBlocPage> {
     );
   }
 
-  void getPlayerstList(BuildContext context, String name) {
+  void getTeamstList(BuildContext context, String name) {
     BlocProvider.of<TeamsBloc>(context).add(GetTeamsListEvent(name));
   }
 
-  void getPlayertStats(BuildContext context, Datum data) {
+  void getTeamStats(BuildContext context, DatumTeams data) {
     BlocProvider.of<TeamsBloc>(context).add(ShowTeamInfoEvent(data));
-  }
-
-  AppBar appBar(BuildContext context) {
-    return AppBar(
-        toolbarHeight: 80,
-        centerTitle: true,
-        elevation: 0,
-        backgroundColor: Colors.white,
-        title: const Text(
-          'Sports App',
-          style: TextStyle(color: Colors.black, fontSize: 40),
-        ));
   }
 }

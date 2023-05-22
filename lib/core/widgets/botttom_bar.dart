@@ -13,8 +13,10 @@ class BottomBar extends StatelessWidget {
         onTap: (int i) => uiProvider.selectedMenuOp = i,
         currentIndex: uiProvider.selectedMenuOp,
         items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.map), label: 'Players'),
-          BottomNavigationBarItem(icon: Icon(Icons.gps_fixed), label: 'Scores'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.boy_rounded), label: 'Players'),
+          BottomNavigationBarItem(icon: Icon(Icons.numbers), label: 'Scores'),
+          BottomNavigationBarItem(icon: Icon(Icons.people), label: 'Teams'),
         ]);
   }
 }

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../../domain/entities/sport.dart';
-import '../bloc/scores_bloc.dart';
 import '../pages/scrores_bloc_page.dart';
 
 class SportsListViewWidget extends StatelessWidget {
@@ -35,7 +34,7 @@ class SportsListViewWidget extends StatelessWidget {
   Container sportsListBuild(int index, BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
-          color: Color.fromARGB(255, 249, 249, 249),
+          color: Color.fromARGB(255, 28, 28, 26),
           border: Border(bottom: BorderSide(width: 3))),
       child: ListTile(
           minVerticalPadding: 15,
@@ -46,7 +45,7 @@ class SportsListViewWidget extends StatelessWidget {
               style: const TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
-                  color: Color.fromARGB(255, 1, 1, 1))),
+                  color: Colors.white)),
           onTap: () => {getScoresList(context, state[index].key)}),
     );
   }
